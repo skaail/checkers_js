@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100%;
+}
+
+#gameboard{
+    height: 600px;
+    width: 600px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tiles{
+    height: 75px;
+    width: 75px;
+}
+
+.black{
+    background-color: rgb(37, 36, 37);
+}
+
+.white{
+    background-color: azure;
+}
+
+.active{
+    background-color: blueviolet;
+}
